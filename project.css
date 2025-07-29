@@ -1,0 +1,226 @@
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color:rgb(175, 123, 31) ;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 80px;
+  background-color: rgb(175, 123, 31);
+  color: rgb(229, 223, 217);
+  flex-wrap: wrap;
+  font-family: serif;
+}
+.menu {
+  display: flex;
+  gap: 24px;
+}
+.menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+.toggle {
+  display: none;
+  font-size: 16px;
+}
+@media screen and (max-width: 768px) {
+  .navbar .menu {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+  }
+  .navbar .menu.active {
+    display: flex;
+  }
+  .navbar .toggle {
+    display: block;
+  }
+}
+.center{
+    width: 100%;
+    height: 1000px;
+    background-image: url(/projectimgbackg.webp);
+    display: flex;
+    justify-content: center;
+}
+.ytb{
+  height: 100px;
+  width: 100px;
+  margin-top: 230px;
+  margin-right: 20px;
+}
+.centerpara{
+  font-size: 60px;
+  margin-top: 200px;
+  font-family:serif;
+  color: rgb(107, 99, 79);
+
+}
+.mid{
+  text-align: center;
+  font-family: serif;
+  background-image: url(/projectimgmid.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+
+} 
+.midhead{
+  font-size: 90px;
+  text-align: center;
+  color: rgb(225, 141, 52);
+  padding-top: 100px;
+}
+.midpara{
+      color: black;
+}
+.midimg{
+  width: 900px;
+  height: 900px;
+  margin-left: 290px;
+}
+.midbutton{
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  font-family: serif;
+  border-radius: 30px;
+  font-size: 24px;
+  text-align: center;
+  color:rgb(225, 141, 52); 
+  border-color: rgb(225, 141, 52);
+  cursor: pointer;
+  transition: 0.9s;
+}
+.midbutton:hover{
+  background-color: rgb(225, 141, 52);
+  border-color: antiquewhite;
+  color: antiquewhite;
+
+}
+.products{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background-color: antiquewhite;
+  height: 100vh;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.imgs{
+  margin-top: 70px;
+  height: 400px;
+  width: 400px;
+}
+.name{
+  color:rgb(225, 141, 52); 
+  text-shadow: 2px;
+  font-size: 40px;
+  padding: 10px;
+}
+.dis{
+  color: rgba(57, 54, 54, 0.707);
+  font-size: 20px;
+  padding-top: 6px;
+  padding-bottom: 18px;
+}
+.but{
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-bottom: 4px;
+  padding-top: 10px;
+  font-family: serif;
+  border-radius: 30px;
+  font-size: 24px;
+  text-align: center;
+  color:rgb(225, 141, 52); 
+  border-color: rgb(225, 141, 52);
+  cursor: pointer;
+  transition: 0.9s;
+  margin-bottom: 30px;
+}
+.but:hover{
+  background-color: rgb(225, 141, 52);
+  border-color: antiquewhite;
+  color: antiquewhite;
+
+}
+.formcard{
+  background-color: rgb(223, 205, 183);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 190px;
+  margin-top: 80px;
+  border-radius: 30px;
+  border-color: rgb(206, 149, 65);
+}
+.form{
+   border-color:  rgb(225, 141, 52); 
+   background-color: rgb(223, 205, 183);
+   color: rgb(53, 45, 45);
+   border-radius: 6px;  
+   padding: 6px;
+
+}
+.con{
+  color:  rgb(225, 141, 52);
+}
+.bottom{
+  display: flex;
+  background-color: rgb(223, 205, 183);
+  padding-bottom: 100px;
+}
+.forms{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 20px;
+  margin-left: 280px;
+}
+.field{
+  padding: 80px;
+  float: right;
+  border-radius: 50px;
+  border-color: rgb(241, 199, 121);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.inp{
+  background-color: #E5E4E2;
+  padding: 15px;
+  border-radius: 8px;
+}
+.contactus{
+  background-color: rgb(175, 123, 31);
+  height: 180px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around ;
+  align-items: flex-end;
+  padding-bottom: 24px;
+  font-family: serif;
+
+}
+.add{
+  margin-top: 40px;
+  font-size: 20px;
+}
+.product{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logosclass{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
